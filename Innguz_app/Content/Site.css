@@ -1,0 +1,118 @@
+﻿body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: #F5F8F8;
+}
+
+/* Set padding to keep content from hitting the edges */
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* Override the default bootstrap behavior where horizontal description lists 
+   will truncate terms that are too long to fit in the left column 
+*/
+.dl-horizontal dt {
+    white-space: normal;
+}
+
+/* Set width on the form input elements since they're 100% wide by default */
+input,
+select,
+textarea {
+    max-width: 280px;
+}
+
+.navbar-lateral {
+    -webkit-box-shadow: 16px 0px 19px -21px rgba(51,51,51,1);
+    -moz-box-shadow: 16px 0px 19px -21px rgba(51,51,51,1);
+    box-shadow: 16px 0px 19px -21px rgba(51,51,51,1);
+    padding: 0;
+    height: 100vh;
+}
+
+.group-photo {
+    display: flex;
+    flex-flow: column nowrap;
+    padding: 25px 0;
+    justify-content: center;
+    align-items: center;
+}
+
+.photo-wrapper {
+    z-index: 1;
+    display: inline-block;
+    position: relative;
+    width: 100px;
+    height: 100px;
+    overflow:hidden;
+    border-radius: 50%;
+}
+
+.photo-wrapper::after {
+    z-index: 2;
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: transparent;
+    border: 2px solid #6CDBEC; 
+    border-radius: 50%;
+    height: 100%;
+    width: 100%;
+}
+
+.photo-wrapper img {
+    width: auto;
+    height: 100%;
+    position:relative;
+    display: inline-block;
+}
+
+.username {
+    font-weight: 700;
+}
+
+.nav-wrapper {
+    display: flex;
+    justify-content: center;
+    flex-flow: column nowrap;
+    align-items: center;
+    width: 100%;
+    padding: 10em 0;
+}
+
+.menu {
+    list-style: none;
+    padding:0;
+    width:100%;
+}
+
+.menu-item {
+    padding: 20px 0;
+    width: 100%;
+    transition: all .3s ease-in-out;
+    text-align: center;
+}
+
+.menu-item a {
+    color: #333;
+    font-size: 1.1em;
+    transition: all .3s ease-in-out;
+}
+
+.menu-item:hover a,
+.menu-item.active a{
+    color: #fff;
+    text-decoration: none;
+}
+
+.menu-item:hover,
+.menu-item.active {
+    cursor: pointer;
+    background: rgba(72,131,232,0.5);
+}
+
+

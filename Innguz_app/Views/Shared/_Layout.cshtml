@@ -1,0 +1,48 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title - Mi aplicación ASP.NET</title>
+    @Styles.Render("~/Content/css")
+    @Scripts.Render("~/bundles/modernizr")
+</head>
+<body>
+    <div class="container-fluid">
+       <div class="row">
+        <div class="col-12 col-md-2 navbar-lateral">
+            <div class="group-photo">
+                <div class="photo-wrapper">
+                    <img src="https://cdn.pixabay.com/photo/2016/11/22/06/05/girl-1848454_960_720.jpg" alt="alt" class="user-photo">
+                </div>
+                <h4 class="username">Nombre usuario</h4>
+            </div>
+            <div class="nav-wrapper">
+                <ul class="menu">
+                    <li class="menu-item active"><a href="#"> Inicio</a> </li>
+                    <li class="menu-item"><a href="#"> Ventas</a></li>
+                    <li class="menu-item"><a href="#"> Ingresar venta</a></li>
+                    <li class="menu-item"><a href="#"> Reportes</a></li>
+
+                </ul>
+            </div>
+        </div>
+        <div class="col-12 col-md-10">
+            @RenderBody()
+        <hr />
+        <footer>
+            <p>&copy; @DateTime.Now.Year - Mi aplicación ASP.NET</p>
+        </footer>
+    </div>
+        </div>
+    </div>
+
+
+
+
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/bootstrap")
+    @RenderSection("scripts", required: false)
+</body>
+</html>
