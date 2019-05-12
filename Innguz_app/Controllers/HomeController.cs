@@ -32,5 +32,9 @@ namespace Innguz_app.Controllers
 
             return View();
         }
+        public ActionResult Sales()
+        {
+            return View();
+        }
     }
 }

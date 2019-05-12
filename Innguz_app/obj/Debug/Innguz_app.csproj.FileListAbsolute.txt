@@ -199,3 +199,5 @@ C:\Users\FxPhantomhive\Desktop\Progra2Project\Progra2Project\Innguz_app\obj\Debu
 C:\Users\FxPhantomhive\Desktop\Progra2Project\Progra2Project\Innguz_app\obj\Debug\Innguz_app.csproj.CopyComplete
 C:\Users\FxPhantomhive\Desktop\Progra2Project\Progra2Project\Innguz_app\obj\Debug\Innguz_app.dll
 C:\Users\FxPhantomhive\Desktop\Progra2Project\Progra2Project\Innguz_app\obj\Debug\Innguz_app.pdb
+C:\Users\Diego\Progra2Project\Innguz_app\obj\Debug\Innguz_app.dll
+C:\Users\Diego\Progra2Project\Innguz_app\obj\Debug\Innguz_app.pdb

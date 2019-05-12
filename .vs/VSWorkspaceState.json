@@ -1,0 +1,14 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\Innguz_app",
+    "\\Innguz_app\\Controllers",
+    "\\Innguz_app\\Models",
+    "\\Innguz_app\\Views",
+    "\\Innguz_app\\Views\\Dashboard",
+    "\\Innguz_app\\Views\\Home",
+    "\\Innguz_app\\Views\\Shared"
+  ],
+  "SelectedNode": "\\Innguz_app\\Global.asax.cs",
+  "PreviewInSolutionExplorer": false
+}
