@@ -36,5 +36,9 @@ namespace Innguz_app.Controllers
         {
             return View();
         }
+        public ActionResult Reporte()
+        {
+            return View();
+        }
     }
 }
